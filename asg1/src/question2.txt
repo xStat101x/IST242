@@ -1,0 +1,7 @@
+It will go through the input first looking for a white marble and if found it will check the next for a black marble.
+If it doesn't find a black marble after the white marble it resets and treats the new white marble as the first one.
+It then will go through until it finds a white marble followed by a black marble.
+It then puts the black marble where the white marble is therefore pushing the black marble closer to the front.
+It will do this until the black marble is not proceeded by a white marble therefore it is either the first marble or...
+only proceeded by black marbles.
+After run until failure, failure being when it hits the end of the input it will have pushed all black marbles to the front.
